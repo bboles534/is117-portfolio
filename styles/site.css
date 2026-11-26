@@ -1,0 +1,13 @@
+/* DEVELOPER: Beshoy Boles, IS117-001, Fall 2026 */
+body { background: #f7f8fb; color: #162436; font-family: system-ui, sans-serif; }
+header, footer { background: #0b1729; color: #eef4ff; }
+footer a { color: #c5e0ff; }
+.hero { background: linear-gradient(125deg, #10223b, #1a3d5d); color: white; }
+.hero .lead { max-width: 38rem; color: #e0edf9; }
+.hero .container { min-height: 24rem; display: grid; align-items: center; }
+.monogram { display: grid; place-items: center; border: 1px solid #7393ae; border-radius: 1.5rem; background: #193650; color: #c6e6ff; min-height: 10rem; font-weight: 800; font-size: clamp(3rem, 10vw, 7rem); letter-spacing: -.08em; }
+.interior-header { background: #e9f2fa; border-bottom: 1px solid #d4e2ef; }
+.card { border-color: #d4e2ef; border-radius: 1rem; box-shadow: 0 .35rem 1rem #13213b0a; }
+.page-content h2 { margin-top: 2rem; font-size: 1.5rem; }
+.page-content h2:first-child { margin-top: 0; }
+.page-content p, .page-content li { max-width: 65ch; line-height: 1.65; }
